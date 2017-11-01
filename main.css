@@ -12,7 +12,7 @@ body {
     color: var(--main-mob-color);
   }
 }
-
+/*Animations to add*/
 .colorchange {
   color: red;
   border: 10px solid black;

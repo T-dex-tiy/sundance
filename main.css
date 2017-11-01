@@ -1,7 +1,19 @@
 :root {
   --main-bg-color: #becadd;
+  --main-mob-color: red;
 }
 
 body {
   background: var(--main-bg-color);
+}
+/*Device settings*/
+@media only screen and (max-width: 980px) {
+  #main {
+    color: var(--main-mob-color);
+  }
+}
+
+.colorchange {
+  color: red;
+  border: 10px solid black;
 }
